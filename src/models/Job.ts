@@ -14,6 +14,11 @@ const JobSchema = new Schema(
       type: String,
       required: true,
     },
+    location: {
+      type: String,
+      required: false,
+      default: null,
+    },
   },
   { timestamps: true }
 );
